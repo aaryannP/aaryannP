@@ -1,0 +1,27 @@
+*
+{
+    margin: auto;
+    align-items: center;
+}
+
+.square {
+    height: 660px;
+    width: 1400px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* नीली चमक */
+    border-radius: 5px; /* कोनों को गोल करने के लिए (वैकल्पिक) */
+    animation: glow 1s infinite alternate;
+    margin-top: 50px;
+}
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.2);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 1);
+    }
+  }
+
+  

@@ -1,0 +1,158 @@
+body
+{
+    background-color:  #3877ff;
+}
+
+
+.portfolie-container
+{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.navlist
+{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navlist li
+{
+    list-style: none;
+}
+.navlist li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem; 
+    color: #fff;  
+    position: relative;
+}
+.navlist li a::after, .navlist .active::after
+{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+.navlist li a:hover::after, .navlist .active::after
+{
+    transform: scale(1);
+}
+/*.Menu
+{
+    background: url(Food.image.2.jpeg);
+    background-repeat: none;
+}*/
+body 
+{
+    scroll-behavior: smooth;
+}
+h2
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul li .A
+{
+    text-align: right;
+}
+.B 
+{
+    color: #262525; 
+}
+h2 table:hover
+/*{
+    background-color: #5DB9EE;
+}*/
+.c:hover
+{
+    content: url(Menu.photos/cheese\ burger.jpg);
+}
+.d:hover
+{
+    content: url(Menu.photos/cheese\ sandwoich.jpg);
+}
+.e:hover
+{
+    content: url(Menu.photos/chicken\ burger.jpg);
+}
+.f:hover
+{
+    content: url(Menu.photos/spicy\ chicken.jpg);
+}
+.g:hover
+{
+    content: url(Menu.photos/hot\ dog.jpg);
+}
+
+.h:hover 
+{
+    content: url(Menu.photos/APPETIZERS/fruit\ salad.jpg);
+}
+.i:hover 
+{
+    content: url(Menu.photos/APPETIZERS/Cocktails.jpg);
+}
+.j:hover 
+{
+    content: url(Menu.photos/APPETIZERS/Nugggets.jpg);
+} 
+.k:hover 
+{
+    content: url(Menu.photos/APPETIZERS/Sandwitch.jpg);
+}
+.l:hover 
+{
+    content: url(Menu.photos/APPETIZERS/French\ Fries.jpg);
+}
+.m:hover
+{
+    content: url(Menu.photos/BEVERAGES/Milk\ Shake.jpg);
+}
+.n:hover
+{
+    content: url(Menu.photos/BEVERAGES/Iced\ Tea.jpg);
+}
+.o:hover
+{
+    content: url(Menu.photos/BEVERAGES/Orange\ Juice.jpg);
+} 
+.p:hover
+{
+    content: url(Menu.photos/BEVERAGES/Lemon\ Tea.jpg);
+}
+.q:hover
+{
+    content: url(Menu.photos/BEVERAGES/Coffee.jpg);
+}
+.r:hover
+{
+    content: url(Menu.photos/pizza/Italian\ Pizza.jpg);
+}
+.s:hover
+{
+    content: url(Menu.photos/pizza/Margherita\ Pizza.jpg);
+}
+.t:hover
+{
+    content: url(Menu.photos/pizza/Mexican\ Pizza.jpg);
+} 
+.u:hover
+{
+    content: url(Menu.photos/pizza/Veg.\ Pizza.jpg);
+}
+.v:hover
+{
+    content: url(Menu.photos/pizza/paneer\ tandoori\ pizza.jpg);
+}
